@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+            <p>Thank you for visiting my portfolio! Whether you have a project in mind, want to collaborate, or just want to say hello, I’d love to hear from you.</p>
+            <p>Fill out the form below and I’ll get back to you as soon as possible.</p>
+        </div>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="collaboration">Collaboration</option>
+                <option value="inquiry">Inquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+        <div class="social-links">
+            <p>Stay updated with my latest work and thoughts by following me on:</p>
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>THANK YOU FOR VISITING MY WEBSITE.</p> 
+                 <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Projects</a> | <a href="#">Contact</a></p>
+        </div>
+    </div>
+</body>
+</html>
